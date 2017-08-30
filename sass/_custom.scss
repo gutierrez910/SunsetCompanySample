@@ -1,0 +1,79 @@
+.navbar{
+margin-bottom: 0;
+
+    a{
+        color: set-text-color($main-color) !important;
+    }
+
+    .fa{
+        font-size: 18px;
+    }
+}
+
+.showcase{
+    margin-top: 50px;
+    height: 600px;
+    padding: 60px 0;
+    background: url(../img/showcase.jpg) no-repeat 0 -100px;
+    background-size: 100% auto;
+
+
+    h1{
+        font-size: 60px;
+    }
+
+    .container{
+        background: #ffc965;
+        opacity: .8;
+        padding:  20px 30px 30px 30px;
+        border-radius: 10px;
+    }
+}
+
+.section-a{
+    padding: 30px 0;
+    text-align: center;
+    background: lighten($main-color, 15%);
+    color: set-text-color($main-color);
+}
+
+.fa{
+    font-size: $icon-size;
+}
+
+.section-b{
+    background: $main-color;
+    padding: 30px 0;
+
+    img{
+        width: 100%;
+    }
+}
+
+.panel-heading h4{
+    color: set-text-color($main-color);
+}
+
+.section-c{
+    padding: 60px 0;
+    text-align: center;
+    background: lighten($main-color, 5%);
+    color: set-text-color($main-color);
+
+    .btn-primary{
+        background: lighten($main-color, 20%);
+    }
+}
+
+footer{
+    width: 100%;
+    padding: 30px 0;
+    background: lighten($main-color, 20%);
+    color: set-text-color($main-color);
+    text-align: center;
+
+}
+
+
+
+
